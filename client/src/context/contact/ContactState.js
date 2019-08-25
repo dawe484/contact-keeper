@@ -12,7 +12,7 @@ import {
   CLEAR_FILTER
 } from '../types';
 
-const ContactSate = props => {
+const ContactState = props => {
   const initialState = {
     contacts: [
       {
@@ -99,4 +99,4 @@ const ContactSate = props => {
   );
 };
 
-export default ContactSate;
+export default ContactState;
